@@ -4,3 +4,5 @@ Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy,     it deosn’t mttaer in wa
 - prompt the user for some text
 - scramble the middle letters of a word in a sentence.
 - output the scrambled text
+# How to use Word Scramble
+1. Clone the repository and run the code!
