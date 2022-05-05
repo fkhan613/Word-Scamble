@@ -1,13 +1,15 @@
 import random
+import time
 
 def scramble():
     # a list of punctuation to look out for (optional)
     punc = (',','.',';',':','!','?',"'")
 
     # prompt the user
-    print('Please enter some text for me to scramble:\n')
+    print('\nPlease enter some text for me to scramble:\n')
     txt = input()
-    print('\nThank you\n\n')
+    print('\nThank you\n')
+    time.sleep(1)
 
     # break up the word list up on the spaces
     word_lst = txt.split()
@@ -77,7 +79,7 @@ def scramble():
     output_txt = output_txt.strip()
 
     # print the output
-    print( output_txt )
+    print( 'Here is the scrambled text:\n\n' + output_txt + '\n' )
 
 
 scramble()
